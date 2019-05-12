@@ -1,0 +1,460 @@
+/* Variables
+---------------------------------------*/
+
+:root {
+	--colorAccent: #35869a;
+	--darkColorAccent: #2a6b7b;
+}
+
+/* Constants
+---------------------------------------*/
+
+body {
+	font-family: "Montserrat";
+}
+
+a {
+	color: #2a6b7b;
+}
+
+/* Header
+---------------------------------------*/
+
+header #branding {
+	text-align: center;
+	margin: 70px 0px 20px 0px;
+}
+
+header #branding h1 {
+	font-family: "Crete Round";
+	text-transform: uppercase;
+	font-size: 64px;
+	letter-spacing: 2px;
+}
+
+header #branding-summary {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+header #branding-summary span {
+	font-size: 16px;
+	color: #aaa;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	letter-spacing: 3px;
+}
+
+header nav {
+	text-align: center;
+	margin: 30px 0px 10px 0px;
+}
+
+header #main-nav ul li a {
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+header #main-nav ul li a.active {
+	color: #787878;
+}
+
+header #main-nav ul li {
+	display: inline-block;
+}
+
+/* Footer
+---------------------------------------*/
+
+footer {
+	display: block;
+	margin: 100px 10px 20px 10px;
+}
+
+footer #social-plugins {
+	text-align: center;
+}
+
+footer #social-plugins ul li {
+	display: inline-block;
+}
+
+footer #social-plugins ul li.ga-twitter a {
+	color: #0084b4;
+}
+
+footer #social-plugins ul li.ga-linkedin a {
+	color: #0077b5;
+}
+
+footer #social-plugins ul li.ga-googleplus a {
+	color: #db4a39;
+}
+
+footer #social-plugins ul li.ga-facebook a {
+	color: #3b5998;
+}
+
+footer #social-plugins ul li.ga-github a {
+	color: #777777;
+}
+
+footer .copyright {
+	text-align: center;
+	color: #777777;
+	padding: 16px 0;
+}
+
+/* Me.Component
+---------------------------------------*/
+
+section#main-section {
+	max-width: 850px;
+	margin: 24px auto 0px auto;
+}
+
+section#main-section aside {
+	text-align: center;
+}
+
+.profile-picture {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	border: 4px #dddddd solid;
+	margin: 24px 0 24px 0;
+}
+
+.aside-content-header {
+	font-family: "Pacifico";
+	color: #232323;
+	font-size: 22px;
+	text-align: left;
+}
+
+.aside-content {
+	font-family: "Montserrat";
+	font-size: 16px;
+	color: #232323;
+	text-align: right;
+	margin: 8px 0 0px 0;
+}
+
+.main-content {
+	font-family: "Montserrat";
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	padding: 32px 0px 0px 0px;
+	line-height: 26px;
+}
+
+/* About.Component
+---------------------------------------*/
+
+#about-component {
+	font-family: "Roboto";
+}
+
+#about-component aside {
+	background: #42a8c0;
+	margin-bottom: 44px;
+}
+
+.profile-picture-sm {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 4px rgba(255, 255, 255, 0.3) solid;
+	margin: 24px 0 16px 0;
+}
+
+#about-component aside .aside-resume-header {
+	background: #35869a;
+	padding: 0 0 16px 0;
+}
+
+#about-component aside .aside-resume-header h3 {
+	color: #ffffff;
+	margin: 0;
+	font-weight: 500;
+	font-family: "Crete Round";
+	letter-spacing: 0.5px;
+}
+
+#about-component aside .aside-resume-header h5 {
+	color: #ffffff;
+	margin-top: 8px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+#about-component aside .aside-resume-text {
+	color: #fff;
+	text-align: left;
+	font-weight: 300;
+	padding: 16px 24px 0px 24px;
+	line-height: 24px;
+}
+
+#about-component aside .aside-resume-text a {
+	color: #fff;
+}
+
+#about-component aside .aside-resume-text a:hover {
+	color: #fff;
+	text-decoration: underline;
+	overflow: hidden;
+}
+
+#about-component aside .aside-resume-highlight-text {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: "Crete Round";
+	color: #ffffff;
+	text-align: left;
+	font-weight: 500;
+	margin: 36px 24px 0px 24px;
+}
+
+#about-component aside .aside-resume-text-1 {
+	color: #fff;
+	font-family: "Roboto";
+	text-align: left;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 16px 24px 0px 24px;
+	letter-spacing: 0.2px;
+}
+
+#about-component aside .aside-resume-text-2 {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: "Roboto";
+	text-align: left;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 2px 24px 0px 24px;
+	letter-spacing: 0.2px;
+}
+
+#about-component main .resume-title {
+	font-size: 22px;
+	color: #35869a;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-weight: 500;
+}
+
+#about-component main .resume-subtitle {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 29px;
+	color: #35869a;
+}
+
+#about-component main .resume-details .sub {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#about-component main .resume-details {
+	font-size: 16px;
+	padding: 16px 0 4px 0;
+	line-height: 24px;
+	color: #565656;
+}
+
+#about-component main .resume-details a {
+	font-size: 18px;
+}
+
+.ga-empty-progress-bar {
+	height: 14px;
+	background: #eaeaea;
+	margin: 8px 0px;
+	padding: 0;
+}
+
+.ga-progress-bar {
+	background: #7bc2d3;
+	height: 14px;
+}
+
+.ga-light-bold {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 0.15px;
+}
+
+/* Buttons
+---------------------------------------*/
+
+.ga-btn-big {
+	width: 100%;
+	margin: 44px 0px;
+	padding: 10px;
+	font-family: "Crete Round";
+	font-size: 18px;
+}
+
+/* Slim Loading Bar
+---------------------------------------*/
+
+.slim-loading-bar {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999;
+}
+
+.slim-loading-bar-progress {
+	margin: 0;
+	padding: 0;
+	z-index: 99998;
+	background-color: green;
+	color: green;
+	box-shadow: 0 0 10px 0;
+	height: 2px;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+/* ga- class sheet
+---------------------------------------*/
+
+.ga-pd-16-flex {
+	padding: 16px 0px;
+	margin: 0 16px;
+	display: flex;
+}
+
+.ga-pd-16 {
+	padding: 16px 0px;
+	margin: 0 16px;
+	display: flow-root;
+}
+
+.ga-code {
+	background: #eaeaea;
+	border-left: 4px #35869a solid;
+	padding: 24px;
+	border-radius: 4px;
+	color: #666666;
+}
+
+.ga-text-black {
+	color: #000;
+}
+
+.ga-text-accent {
+	color: #35869a;
+}
+
+.ga-text-size-16 {
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 4px;
+	letter-spacing: 1px;
+}
+
+.ga-card {
+	border: 1px #cccccc solid;
+	border-radius: 4px;
+	padding: 16px;
+}
+
+.ga-h1 {
+	font-size: 22px;
+	color: #35869a;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-weight: 500;
+}
+
+.ga-p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #565656;
+}
+
+/* Bootstrap Overrride
+---------------------------------------*/
+
+.btn-primary {
+	background-color: #35869a;
+	border-color: #2a6b7b;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:hover {
+	background-color: #2a6b7b;
+	border-color: #1a434d;
+}
+
+.jumbotron {
+	background: #35869a;
+	color: #ffffff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/* Media Queries
+---------------------------------------*/
+
+@media screen and (max-width: 991px) {
+	/* Small screen-size 768 px uptoto 991 px */
+	.profile-picture {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		border: 4px #fff solid;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* Small screen-size 577 px upto 767 px */
+	header #branding h1 {
+		text-transform: uppercase;
+		font-size: 48px;
+	}
+	.profile-picture {
+		width: 350px;
+		height: 350px;
+		border-radius: 50%;
+		border: 4px #fff solid;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	/* Extra small screen-size upto 576 px */
+	header #branding {
+		margin: 50px 0px 20px 0px;
+	}
+	header #branding h1 {
+		font-size: 28px;
+	}
+	header #branding-summary span {
+		font-size: 14px;
+	}
+	.profile-picture {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		border: 4px #fff solid;
+	}
+}

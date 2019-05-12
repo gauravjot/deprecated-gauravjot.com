@@ -1,0 +1,61 @@
+<ng2-slim-loading-bar>
+</ng2-slim-loading-bar>
+
+<header>
+  <div class="container">
+    <div id="branding">
+      <h1>Gauravjot Garaya</h1></div>
+    <div id="branding-summary"><span>Professional, Web Developer, Android Applications</span></div>
+    <nav id="main-nav">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active': navSelected === 1}" routerLink="" (click)="navSelect(1)">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active': navSelected === 2}" routerLink="/resume" (click)="navSelect(2)">Resume</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active': navSelected === 5}" routerLink="/accomplishments" (click)="navSelect(5)">Accomplishments</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active': navSelected === 3}" routerLink="/website" (click)="navSelect(3)">This Website</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="{'active': navSelected === 4}" routerLink="/contact" (click)="navSelect(4)">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <hr style="margin-top:32px; max-width:750px;">
+  </div>
+</header>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer>
+  <div class="container">
+    <section id="social-plugins">
+      <ul class="nav">
+        <li class="nav-item ga-googleplus">
+          <a class="nav-link" href="mailto:gauravjot@outlook.com" target="_blank"><span class="fa fa-envelope"></span></a>
+        </li>
+        <li class="nav-item ga-twitter">
+          <a class="nav-link" href="http://twitter.com/gauravjot" target="_blank"><span class="fa fa-twitter"></span></a>
+        </li>
+        <li class="nav-item ga-linkedin ">
+          <a class="nav-link" href="http://linkedin.com/in/gauravjot" target="_blank"><span class="fa fa-linkedin"></span></a>
+        </li>
+        <li class="nav-item ga-stack-overflow">
+          <a class="nav-link" href="http://stackoverflow.com/users/1460340/" target="_blank"><span class="fa fa-stack-overflow"></span></a>
+        </li>
+        <li class="nav-item ga-github">
+          <a class="nav-link" href="http://github.com/gauravjot" target="_blank"><span class="fa fa-github"></span></a>
+        </li>
+      </ul>
+    </section>
+    <div class="copyright">
+      Developed by Gauravjot Garaya 2017-2018
+    </div>
+  </div>
+</footer>

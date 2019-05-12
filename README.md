@@ -1,14 +1,14 @@
 # Gauravjot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2. Check [live project](https://gauravjot.com).
+This repository is source code of https://gauravjot.com (personal portfolio website). The code composition is HTML, Typescript, JavaScript and CSS. The framework of choice is Angular and is hosted on Firebase. 
+
+# Technical
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2. Check [live project](https://gauravjot.com). Angular version 6 is used.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
 ## Build
 

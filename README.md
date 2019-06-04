@@ -1,3 +1,5 @@
+## Deprecated: new website is in works
+
 # Gauravjot
 
 This repository is source code of https://gauravjot.com (personal portfolio website). The code composition is HTML, Typescript, JavaScript and CSS. The framework of choice is Angular and is hosted on Firebase. 
